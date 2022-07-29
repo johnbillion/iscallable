@@ -19,7 +19,7 @@ class foo {
 	public function bar() {}
 }
 
-$foo = new $foo;
+$foo = new foo();
 
 // Class method does not work
 \add_filter('filter', [$foo, 'bar']);
