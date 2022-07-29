@@ -24,5 +24,8 @@ $foo = new foo();
 // Class method does not work
 \add_filter('filter', [$foo, 'bar']);
 
+// Class method does not work
+\add_filter('filter', [new foo(), 'bar']);
+
 // Arrow function works ok
 \add_filter('filter', fn() => 'Hello');

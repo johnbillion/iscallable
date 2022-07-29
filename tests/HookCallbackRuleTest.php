@@ -40,6 +40,10 @@ class HookCallbackRuleTest extends \PHPStan\Testing\RuleTestCase
 					'Callback is ok',
 					28,
 				],
+				[
+					'Callback is ok',
+					31,
+				],
 			]
 		);
 	}
